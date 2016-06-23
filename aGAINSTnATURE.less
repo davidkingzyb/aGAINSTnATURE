@@ -1,0 +1,130 @@
+/*
+================================================================================================================================
+          ________     __      ______   ___   __   _______  ________              __     ________  __    __  ________  ________ 
+         /   _____|   /  \    |_    _| |   \ |  |/  _____/ |__    __|            /  \   |__    __||  |  |  ||   __   \|   _____|
+  ____   |  | ____   / /\ \     |  |   |    \|  |\  \_____    |  |    ______    / /\ \     |  |   |  |  |  ||  |__|  /|  |____  
+ /    \  |  ||_   \ / /__\ \    |  |   |        | \_____  \   |  |   |      \  / /__\ \    |  |   |  |  |  ||   _   / |   ____| 
+/  /   \_|  |__|  |/  ____  \  _|  |_  |  |\    |______/  /   |  |   |   _   |/  ____  \   |  |   |  |__|  ||  | \  \ |  |_____ 
+\_______/|________/__|    |__ |______| |__| \___|\_______/    |__|   |__| |__|__|    |__   |__|   |________||__|  \__\|________|
+================================================================================================================================
+2016/06/23 by DKZ https://davidkingzyb.github.io
+github: https://github.com/davidkingzyb/aGAINSTnATURE.git
+*/
+@black:#000000;
+@white:#ffffff;
+@grey:#777777;
+@red:#ff0000;
+@green:#1dda3b;
+@blue:#0085ff;
+@orange:#f49800;
+@color_hover: #82dffb;
+@color_a: #4078c0;
+
+.font_serif{
+    font-family:Georgia,'Times New Roman', SimSun, serif;
+}
+.font_sans_serif{
+    font-family: Helvetica, Arial, SimHei,sans-serif;
+}
+.font_normal{
+    font-family: Arial, Verdana, SimHei,sans-serif;
+}
+.font_title{
+    font-family: Impact, 'Arial Black', SimHei,sans-serif;
+}
+.font_fix_width{
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+.bg{
+    color:@white;
+    background-color: @black;
+    margin:0px;
+}
+body{
+    .bg();
+    .font_sans_serif();
+}
+p{
+    .bg();
+    .font_sans_serif();
+    font-size: 1.5em;
+    font-weight: bold;
+    margin:0.83em 0px 0.83em 0px;
+}
+h1{
+    .bg();
+    .font_serif();
+    font-size: 0.83em;
+    font-weight: normal;
+    margin:1.67em 0px 1.67em 0px;
+}
+h2{
+    .bg();
+    .font_serif();
+    font-size: 1em;
+    font-weight: normal;
+    margin:1.33em 0px 1.33em 0px;
+}
+h3{
+    .bg();
+    .font_serif();
+    font-size: 1.17em;
+    font-weight: normal;
+    margin:1em 0px 1em 0px;
+}
+h4{
+    .bg();
+    .font_serif();
+    font-size: 1.5em;
+    font-weight: normal;
+    margin:0.83em 0px 0.83em 0px;
+}
+h5{
+    .bg();
+    .font_serif();
+    font-size: 2em;
+    font-weight: normal;
+    margin:0.67em 0px 0.67em 0px;
+}
+a{
+    background-color: @black;
+    color:@color_a;
+    .font_serif();
+    text-decoration: none;
+    &:hover{
+        color:@color_hover;
+    }
+}
+.init_btn{
+    text-decoration: none;
+    color:@white;
+    .font_normal();
+    border-radius: 5px;
+    border:0px;
+    padding:5px;
+    &:focus {outline: none;};
+}
+.okbtn{
+    background-color: @red;
+    &:hover{
+        background-color: @red + #111;
+        color:white;
+    };
+    &:active{
+        background-color: @red - #111;
+    };
+    .init_btn()
+}
+.cancelbtn{
+    background-color: @green;
+    &:hover{
+        background-color: @green + #111;
+        color:white;
+    };
+    &:active{
+        background-color: @green - #111;
+    };
+    .init_btn()
+}
+

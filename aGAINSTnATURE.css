@@ -1,0 +1,150 @@
+/*
+================================================================================================================================
+          ________     __      ______   ___   __  ________  ________              __     ________  __    __  ________  ________ 
+         /   _____|   /  \    |_    _| |   \ |  |/  _____/ |__    __|            /  \   |__    __||  |  |  ||   __   \|   _____|
+  ____   |  | ____   / /\ \     |  |   |    \|  |\  \_____    |  |    ______    / /\ \     |  |   |  |  |  ||  |__|  /|  |____  
+ /    \  |  ||_   \ / /__\ \    |  |   |        | \_____  \   |  |   |      \  / /__\ \    |  |   |  |  |  ||   _   / |   ____| 
+/  /   \_|  |__|  |/  ____  \  _|  |_  |  |\    |______/  /   |  |   |   _   |/  ____  \   |  |   |  |__|  ||  | \  \ |  |_____ 
+\_______/|________/__|    |__ |______| |__| \___|\_______/    |__|   |__| |__|__|    |__   |__|   |________||__|  \__\|________|
+================================================================================================================================
+2016/06/23 by DKZ https://davidkingzyb.github.io
+github: https://github.com/davidkingzyb/aGAINSTnATURE.git
+*/
+.font_serif {
+  font-family: Georgia, 'Times New Roman', SimSun, serif;
+}
+.font_sans_serif {
+  font-family: Helvetica, Arial, SimHei, sans-serif;
+}
+.font_normal {
+  font-family: Arial, Verdana, SimHei, sans-serif;
+}
+.font_title {
+  font-family: Impact, 'Arial Black', SimHei, sans-serif;
+}
+.font_fix_width {
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+.bg {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+}
+body {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+  font-family: Helvetica, Arial, SimHei, sans-serif;
+}
+p {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+  font-family: Helvetica, Arial, SimHei, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.83em 0px 0.83em 0px;
+}
+h1 {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', SimSun, serif;
+  font-size: 0.83em;
+  font-weight: normal;
+  margin: 1.67em 0px 1.67em 0px;
+}
+h2 {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', SimSun, serif;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 1.33em 0px 1.33em 0px;
+}
+h3 {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', SimSun, serif;
+  font-size: 1.17em;
+  font-weight: normal;
+  margin: 1em 0px 1em 0px;
+}
+h4 {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', SimSun, serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0.83em 0px 0.83em 0px;
+}
+h5 {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', SimSun, serif;
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0.67em 0px 0.67em 0px;
+}
+a {
+  background-color: #000000;
+  color: #4078c0;
+  font-family: Georgia, 'Times New Roman', SimSun, serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #82dffb;
+}
+.init_btn {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial, Verdana, SimHei, sans-serif;
+  border-radius: 5px;
+  border: 0px;
+  padding: 5px;
+}
+.init_btn:focus {
+  outline: none;
+}
+.okbtn {
+  background-color: #ff0000;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial, Verdana, SimHei, sans-serif;
+  border-radius: 5px;
+  border: 0px;
+  padding: 5px;
+}
+.okbtn:hover {
+  background-color: #ff1111;
+  color: white;
+}
+.okbtn:active {
+  background-color: #ee0000;
+}
+.okbtn:focus {
+  outline: none;
+}
+.cancelbtn {
+  background-color: #1dda3b;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial, Verdana, SimHei, sans-serif;
+  border-radius: 5px;
+  border: 0px;
+  padding: 5px;
+}
+.cancelbtn:hover {
+  background-color: #2eeb4c;
+  color: white;
+}
+.cancelbtn:active {
+  background-color: #0cc92a;
+}
+.cancelbtn:focus {
+  outline: none;
+}
